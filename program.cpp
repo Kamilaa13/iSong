@@ -33,4 +33,24 @@ void pilihanGenre(int pilihan) {
     }
 }
 
+int main(){
+    int pilihan;
+bool ulang = true;
+
+while(ulang){
+cout<<"==== Menu Genre Lagu===="<<endl;
+tampilkanGenre();
+
+cout<<"Pilih Genre (1 - 5) :";
+cin>>pilihan;
+
+pilihanGenre(pilihan);
+
+cout<<"Apakah ada ingin memilih genre lain? (1 untuk Ya, 0 unutk Tidak):";
+cin>>ulang;
+}
+
+cout<<"Terima Kasih telah menggunakan program ini";
+return 0;
+}
 
