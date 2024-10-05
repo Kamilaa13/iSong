@@ -26,6 +26,16 @@ void pilihanGenre(int pilihan) {
             break;
         case 5:
             cout << "Genre Kpop: "<<endl;
+            cout<<"We Young (NCT DREAM)\nBeatbox (NCT DREAM)\nGlitch Mode(NCT DREAM)\nRains in Heaven(NCT DREAM)\nSmoothie(NCT DREAM)\nRainbow (NCT DREAM)\n"<<endl;
+            cout<<"Black Mamba (AESPA)\nSavage (AESPA)\nNext Level (AESPA)\nSupernova (AESPA)\nDreams Come True (AESPA)\nArmageddon (AESPA)\n"<<endl;
+            cout<<"Future (Red Velvet)\nBad Boy (Red Velvet)\nCosmic (Red Velvet)\nFeel My Rhytm (Red Velvet)\nPsycho (Red Velvet)\nRed Flavor(Red Velvet)\n"<<endl;
+            cout<<"Love Talk (WAYV)\nPhantom (WAYV)\nGive Me That(WAYV)\nGood Life(WAYV)\nOn My Youth (WAYV)\nBroken Love(WAYV)\n"<<endl;
+            cout<<"Fast Check (NCT 127)\n0 MIle (NCT 127)\nRegular(NCT 127)\nPilot(NCT 127)\nDesigner(NCT 127)\nKick It(NCT 127)\n"<<endl;
+            cout<<"Get A Guitar (RIIZE)\nMemories(RIIZE)\nLove 119 (RIIZE)\nBoom Boom Bas (RIIZE)\nSiren(RIIZE)\nOne Kiss(RIIZE)\n"<<endl;
+            cout<<"Super Shy (NewJeans)\nHow Sweet (NewJeans)\nDitto (NewJeans)\nOMG (NewJeans)\nBubble Gum(NewJeans)\nHype Boy (NewJeans)\n"<<endl;
+            cout<<"I AM (IVE)\nAfter LIKE (IVE)\nOff The Record (IVE)\nLOVE DIVE (IVE)\nELEVEN (IVE)\nKitsch (IVE)\n"<<endl;
+            cout<<"Boy in Luv (BTS)\nEuphoria (BTS)\nFAKE LOVE (BTS)\nLove Maze (BTS)\nMagic Shop (BTS)\nButter (BTS)\n"<<endl;
+            cout<<"Love Shot (EXO)\nThe Eve (EXO)\nGrowl (EXO)\nCALL ME BABY (EXO)\nKo Ko Bop (EXO)\nPeter Pan (EX0)\n"<<endl;
             break;
         default:
             cout << "Pilihan tidak valid"<<endl;
