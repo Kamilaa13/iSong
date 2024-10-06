@@ -22,6 +22,7 @@ void pilihanGenre(int pilihan) {
             cout << endl;
             cout << "Pilih artist (1 - 4)" << endl;
             cin >> pil;
+            cout << endl;
             if (pil == 1) {
                 cout << "Lagu Dari Ariana Grande : " << endl;
                 cout << "1. Into You" << endl; 
@@ -60,6 +61,7 @@ void pilihanGenre(int pilihan) {
             cout << endl;
             cout << "Pilih artist (1 - 4)" << endl;
             cin >> pil;
+            cout << endl;
             if (pil == 1) {
                 cout << "Lagu Dari Bon Jovi : " << endl;
                 cout << "1. I'll Be There For You" << endl; 
