@@ -55,7 +55,41 @@ void pilihanGenre(int pilihan) {
             cout << "Genre Rock: "<<endl;
             break;
         case 3:
-            cout << "Genre Jazz: "<<endl;
+            cout << "Genre Jazz: 1. Miles Davis" << endl;
+            cout << "           2. Ella Fitzgerald" << endl;
+            cout << "           3. Billie Holiday" << endl;
+            cout << "           4. Charlie Parker" << endl;
+            cout << "Pilih artist (1 - 4)" << endl;
+            cin >> pil;
+            if (pil == 1) {
+                cout << "Lagu Dari Miles Davis : " << endl;
+                cout << "1. Kind Of Blue" << endl; 
+                cout << "2. So What" << endl;
+                cout << "3. Freddie Freeloader" << endl;
+                cout << "4. Blue in Green" << endl;
+                cout << "5. All Blues" << endl;
+            } else if (pil == 2) {
+                cout << "Lagu Dari Ella Fitzgerald : " << endl;
+                cout << "1. A Tisket, A Tasket" << endl;
+                cout << "2. Summertime" << endl;
+                cout << "3. My Funny Valentine" << endl;
+                cout << "4. Cry Me a River" << endl;
+                cout << "5. Mack the Knife" << endl;
+            } else if (pil == 3) {
+                cout << "Lagu Dari Billie Holiday : " << endl;
+                cout << "1. Strange Fruit" << endl;
+                cout << "2. I'll Be Seeing You" << endl;
+                cout << "3. God Bless the Child" << endl;
+                cout << "4. Lady Day and the Dial Tone" << endl;
+                cout << "5. Don't Explain" << endl;
+            } else {
+                cout << "Lagu Dari Charlie Parker : " << endl;
+                cout << "1. Ornithology" << endl;
+                cout << "2. Koko" << endl;
+                cout << "3. Now's the Time" << endl;
+                cout << "4. Yardbird Suite" << endl;
+                cout << "5. Confirmation" << endl; "<<endl;
+            }
             break;
         case 4:
             cout << "Genre Klasik: "<<endl;
