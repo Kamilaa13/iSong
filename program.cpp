@@ -19,8 +19,9 @@ void pilihanGenre(int pilihan) {
             cout << "           2. Sabrina Carpenter" << endl;
             cout << "           3. Bruno Mars" << endl;
             cout << "           4. Billie Eilish" << endl;
+            cout << "           5. LANY" << endl;
             cout << endl;
-            cout << "Pilih artist (1 - 4)" << endl;
+            cout << "Pilih artist (1 - 5)" << endl;
             cin >> pil;
             cout << endl;
             if (pil == 1) {
@@ -44,13 +45,20 @@ void pilihanGenre(int pilihan) {
                 cout << "3. Grenade" << endl;
                 cout << "4. It Will Rain" << endl;
                 cout << "5. Die With A Smile" << endl;
-            } else {
+            } else if (pil == 4) {
                 cout << "Lagu Dari Billie Eilish : " << endl;
                 cout << "1. Birds of A Feather" << endl;
                 cout << "2. Bad Guy" << endl;
                 cout << "3. When The Party's Over" << endl;
                 cout << "4. Guess" << endl;
                 cout << "5. All The Good Girls Go To Hell" << endl;
+            } else {
+                cout << "Lagu Dari LANY : " << endl;
+                cout << "1. Malibu Nights" << endl;
+                cout << "2. Cause You Have To" << endl;
+                cout << "3. DNA" << endl;
+                cout << "4. Thru These Tears" << endl;
+                cout << "5. ILYSB" << endl;
             }
           break;
         case 2:
@@ -58,8 +66,9 @@ void pilihanGenre(int pilihan) {
             cout << "            2. My Chemical Romance" << endl;
             cout << "            3. 0asis" << endl;
             cout << "            4. a7x" << endl;
+            cout << "            5. Dewa 19" << endl;
             cout << endl;
-            cout << "Pilih artist (1 - 4)" << endl;
+            cout << "Pilih artist (1 - 5)" << endl;
             cin >> pil;
             cout << endl;
             if (pil == 1) {
@@ -83,21 +92,30 @@ void pilihanGenre(int pilihan) {
                 cout << "3. Champagne Supernova" << endl;
                 cout << "4. live Forever" << endl;
                 cout << "5. Some Might Say" << endl;
-            } else {
+            } else if (pil == 4) {
                 cout << "Lagu Dari a7x : " << endl;
                 cout << "1. Little Piece Of Heaven" << endl;
                 cout << "2. Afterlife" << endl;
                 cout << "3. Dear God" << endl;
                 cout << "4. Nightmare" << endl;
                 cout << "5. Hail To The King" << endl;
+            } else {
+                cout << "Lagu Dari Dewa 19 : "<< endl;
+                cout << "1. Aku Milikmu" << endl;
+                cout << "2. Separuh Nafas" << endl;
+                cout << "3. Roman Picisan" << endl;
+                cout << "4. Cinta 'kan Membawamu Kembali" << endl;
+                cout << "5. Satu" << endl;
+                
             }
           break;
         case 3:
             cout << "Genre Jazz: 1. Miles Davis" << endl;
-            cout << "           2. Ella Fitzgerald" << endl;
-            cout << "           3. Billie Holiday" << endl;
-            cout << "           4. Charlie Parker" << endl;
-            cout << "Pilih artist (1 - 4)" << endl;
+            cout << "            2. Ella Fitzgerald" << endl;
+            cout << "            3. Billie Holiday" << endl;
+            cout << "            4. Charlie Parker" << endl;
+            cout << "            5. Tulus" << endl;
+            cout << "Pilih artist (1 - 5)" << endl;
             cin >> pil;
             if (pil == 1) {
                 cout << "Lagu Dari Miles Davis : " << endl;
@@ -120,13 +138,20 @@ void pilihanGenre(int pilihan) {
                 cout << "3. God Bless the Child" << endl;
                 cout << "4. Lady Day and the Dial Tone" << endl;
                 cout << "5. Don't Explain" << endl;
-            } else {
+            } else if (pil == 4) {
                 cout << "Lagu Dari Charlie Parker : " << endl;
                 cout << "1. Ornithology" << endl;
                 cout << "2. Koko" << endl;
                 cout << "3. Now's the Time" << endl;
                 cout << "4. Yardbird Suite" << endl;
                 cout << "5. Confirmation" << endl;
+            } else  {
+                cout << "Lagu Dari Tulus : " << endl;
+                cout << "1. Jangan Cintai Aku Apa Adanya" << endl;
+                cout << "2. Hati-Hati di Jalan" << endl;
+                cout << "3. Monokrom" << endl;
+                cout << "4. Sepatu" << endl;
+                cout << "5. Sewindu" << endl;
             }
             break;
         case 4:
@@ -288,11 +313,11 @@ cin>>pilihan;
 
 pilihanGenre(pilihan);
 
-cout<<"Apakah ada ingin memilih genre lain? (1 untuk Ya, 0 unutk Tidak):";
+cout<<"Apakah ada ingin memilih genre lain?" <<endl;
+cout<<"Ketik 1 untuk Ya dan 0 untuk Tidak" << endl;
 cin>>ulang;
 }
 
 cout<<"Terima Kasih telah menggunakan program ini";
 return 0;
 }
-
