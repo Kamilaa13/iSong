@@ -61,17 +61,99 @@ void pilihanGenre(int pilihan) {
             cout << "Genre Klasik: "<<endl;
             break;
         case 5:
-            cout << "Genre Kpop: "<<endl;
-            cout<<"We Young (NCT DREAM)\nBeatbox (NCT DREAM)\nGlitch Mode(NCT DREAM)\nRains in Heaven(NCT DREAM)\nSmoothie(NCT DREAM)\nRainbow (NCT DREAM)\n"<<endl;
-            cout<<"Black Mamba (AESPA)\nSavage (AESPA)\nNext Level (AESPA)\nSupernova (AESPA)\nDreams Come True (AESPA)\nArmageddon (AESPA)\n"<<endl;
-            cout<<"Future (Red Velvet)\nBad Boy (Red Velvet)\nCosmic (Red Velvet)\nFeel My Rhytm (Red Velvet)\nPsycho (Red Velvet)\nRed Flavor(Red Velvet)\n"<<endl;
-            cout<<"Love Talk (WAYV)\nPhantom (WAYV)\nGive Me That(WAYV)\nGood Life(WAYV)\nOn My Youth (WAYV)\nBroken Love(WAYV)\n"<<endl;
-            cout<<"Fast Check (NCT 127)\n0 MIle (NCT 127)\nRegular(NCT 127)\nPilot(NCT 127)\nDesigner(NCT 127)\nKick It(NCT 127)\n"<<endl;
-            cout<<"Get A Guitar (RIIZE)\nMemories(RIIZE)\nLove 119 (RIIZE)\nBoom Boom Bas (RIIZE)\nSiren(RIIZE)\nOne Kiss(RIIZE)\n"<<endl;
-            cout<<"Super Shy (NewJeans)\nHow Sweet (NewJeans)\nDitto (NewJeans)\nOMG (NewJeans)\nBubble Gum(NewJeans)\nHype Boy (NewJeans)\n"<<endl;
-            cout<<"I AM (IVE)\nAfter LIKE (IVE)\nOff The Record (IVE)\nLOVE DIVE (IVE)\nELEVEN (IVE)\nKitsch (IVE)\n"<<endl;
-            cout<<"Boy in Luv (BTS)\nEuphoria (BTS)\nFAKE LOVE (BTS)\nLove Maze (BTS)\nMagic Shop (BTS)\nButter (BTS)\n"<<endl;
-            cout<<"Love Shot (EXO)\nThe Eve (EXO)\nGrowl (EXO)\nCALL ME BABY (EXO)\nKo Ko Bop (EXO)\nPeter Pan (EX0)\n"<<endl;
+            cout << "Genre KPop: 1. NCY DREAM" << endl;
+            cout << "            2. AESPA" << endl;
+            cout << "            3. Red Velvet" << endl;
+            cout << "            4. WAYV" << endl;
+            cout << "            5. NCT 127" << endl;
+            cout << "            6. RIIZE" << endl;
+            cout << "            7. New Jeans" << endl;
+            cout << "            8. IVE" << endl;
+            cout << "            9. BTS" << endl;
+            cout << "            10. EXO" << endl;
+            cout << "Pilih artist (1 - 10)" << endl;
+            cin >> pil;
+            if ( pil == 1){
+                cout << "Lagu dari NCT DREAM :" << endl;
+                cout << "                       1. We Young (NCT DREAM)" <<endl;
+                cout << "                       2. Beatbox (NCT DREAM)" <<endl;
+                cout << "                       3. Glitch Mode(NCT DREAM)" <<endl;
+                cout << "                       4. Rains in Heaven(NCT DREAM)" <<endl;
+                cout << "                       5. Smoothie(NCT DREAM)" <<endl;
+                cout << "                       6. Rainbow (NCT DREAM)" <<endl;
+            }else if ( pil == 2){
+                 cout << "Lagu dari AESPA :" << endl;
+                cout << "                   1. Black Mamba (AESPA)" <<endl;
+                cout << "                   2. Savage (AESPA)" <<endl;
+                cout << "                   3. Next Level (AESPA)" <<endl;
+                cout << "                   4. Supernova (AESPA)" <<endl;
+                cout << "                   5. Dreams Come True (AESPA)" <<endl;
+                cout << "                   6. Armageddon (AESPA)" <<endl;
+            }else if ( pil == 3){
+                cout << "Lagu dari Red Velvet :" << endl;
+                cout << "                       1. Future (Red Velvet)" << endl;
+                cout << "                       2. Bad Boy (Red Velvet)" << endl;
+                cout << "                       3. Cosmic (Red Velvet)" << endl;
+                cout << "                       4. Feel My Rhytm (Red Velvet)" << endl;
+                cout << "                       5. Psycho (Red Velvet)" << endl;
+                cout << "                       6. Red Flavor(Red Velvet)"<<endl;
+            }else if (pil == 4){
+                cout << "Lagu dari WAYV :" << endl;
+                cout << "                   1. Love Talk (WAYV)" << endl;
+                cout << "                   2. Phantom (WAYV)" << endl;
+                cout << "                   3. Give Me That(WAYV)" << endl;
+                cout << "                   4. Good Life(WAYV)" << endl;
+                cout << "                   5. On My Youth (WAYV)" << endl;
+                cout << "                   6. Broken Love(WAYV)"<<endl;
+            }else if (pil == 5){
+                cout << "Lagu dari NCT 127 :" << endl;
+                cout << "                       1. Fast Check (NCT 127)" << endl;
+                cout << "                       2. 0 MIle (NCT 127)" << endl;
+                cout << "                       3. Regular(NCT 127)" << endl;
+                cout << "                       4. Pilot(NCT 127)" << endl;
+                cout << "                       5. Designer(NCT 127)" << endl;
+                cout << "                       6. Kick It(NCT 127)"<< endl;
+            }else if (pil == 6){
+                cout << "Lagu dari RIIZE :" << endl;
+                cout << "                   1. Get A Guitar (RIIZE)" << endl;
+                cout << "                   2. Memories(RIIZE)" << endl;
+                cout << "                   3. Love 119 (RIIZE)" << endl;
+                cout << "                   4. Boom Boom Bas (RIIZE)" << endl;
+                cout << "                   5. Siren(RIIZE)" << endl;
+                cout << "                   6. One Kiss(RIIZE)" <<endl;
+            }else if (pil == 7){
+                cout << "Lagu dari NewJeans :" << endl;
+                cout << "                       1. Super Shy (NewJeans)" << endl; 
+                cout << "                       2. How Sweet (NewJeans)" << endl;
+                cout << "                       3. Ditto (NewJeans)" << endl;
+                cout << "                       4. OMG (NewJeans)" << endl;
+                cout << "                       5. Bubble Gum(NewJeans)" << endl;
+                cout << "                       6. Hype Boy (NewJeans)"<<endl;
+            }else if (pil == 8){
+                cout << "Lagu dari IVE :" << endl;
+                cout << "                   1. I AM (IVE)" << endl;
+                cout << "                   2. After LIKE (IVE)" << endl;
+                cout << "                   3. Off The Record (IVE)" << endl;
+                cout << "                   4. LOVE DIVE (IVE)" << endl;
+                cout << "                   5. ELEVEN (IVE)" << endl;
+                cout << "                   6. Kitsch (IVE)"<<endl;
+            }else if (pil == 9){
+                cout << "Lagu dari BTS :" << endl;
+                cout << "                 1. Boy in Luv (BTS)" << endl;
+                cout << "                 2. Euphoria (BTS)" << endl;
+                cout << "                 3. FAKE LOVE (BTS)" << endl;
+                cout << "                 4. Love Maze (BTS)" << endl;
+                cout << "                 5. Magic Shop (BTS)" << endl;
+                cout << "                 6. Butter (BTS)"<<endl;
+            }else {
+                cout << "Lagu dari EXO :" << endl;
+                cout << "                   1. Love Shot (EXO)" << endl;
+                cout << "                   2. The Eve (EXO)" << endl;
+                cout << "                   3. Growl (EXO)" << endl;
+                cout << "                   4. CALL ME BABY (EXO)" << endl;
+                cout << "                   5. Ko Ko Bop (EXO)" << endl;
+                cout << "                   6. Peter Pan (EX0)"<<endl;
+            }
             break;
         default:
             cout << "Pilihan tidak valid"<<endl;
