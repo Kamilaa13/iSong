@@ -48,7 +48,7 @@ void pilihanGenre(int pilihan) {
                 cout << "2. Bad Guy" << endl;
                 cout << "3. When The Party's Over" << endl;
                 cout << "4. Guess" << endl;
-                cout << "5. All The Good Girls Go To Hell << endl;
+                cout << "5. All The Good Girls Go To Hell" << endl;
             }
           break;
         case 2:
