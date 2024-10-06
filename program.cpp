@@ -19,6 +19,7 @@ void pilihanGenre(int pilihan) {
             cout << "           2. Sabrina Carpenter" << endl;
             cout << "           3. Bruno Mars" << endl;
             cout << "           4. Billie Eilish" << endl;
+            cout << endl;
             cout << "Pilih artist (1 - 4)" << endl;
             cin >> pil;
             if (pil == 1) {
@@ -52,8 +53,43 @@ void pilihanGenre(int pilihan) {
             }
           break;
         case 2:
-            cout << "Genre Rock: "<<endl;
-            break;
+            cout << "Genre Rock: 1. Bon Jovi" << endl;
+            cout << "            2. My Chemical Romance" << endl;
+            cout << "            3. 0asis" << endl;
+            cout << "            4. a7x" << endl;
+            cout << endl;
+            cout << "Pilih artist (1 - 4)" << endl;
+            cin >> pil;
+            if (pil == 1) {
+                cout << "Lagu Dari Bon Jovi : " << endl;
+                cout << "1. I'll Be There For You" << endl; 
+                cout << "2. It's My Life" << endl;
+                cout << "3. You Give Love A Bad Name" << endl;
+                cout << "4. Always" << endl;
+                cout << "5. Livin' On A Prayer" << endl;
+            } else if (pil == 2) {
+                cout << "Lagu Dari My Chemical Romance : " << endl;
+                cout << "1. Teenagers" << endl;
+                cout << "2. Cancer" << endl;
+                cout << "3. Disenchanted" << endl;
+                cout << "4. Welcome To The Black Parade" << endl;
+                cout << "5. I'm Not Okay (I Promise)" << endl;
+            } else if (pil == 3) {
+                cout << "Lagu Dari Oasis : " << endl;
+                cout << "1. Don't Look Back In Anger" << endl;
+                cout << "2. Wonderwall" << endl;
+                cout << "3. Champagne Supernova" << endl;
+                cout << "4. live Forever" << endl;
+                cout << "5. Some Might Say" << endl;
+            } else {
+                cout << "Lagu Dari a7x : " << endl;
+                cout << "1. Little Piece Of Heaven" << endl;
+                cout << "2. Afterlife" << endl;
+                cout << "3. Dear God" << endl;
+                cout << "4. Nightmare" << endl;
+                cout << "5. Hail To The King" << endl;
+            }
+          break;
         case 3:
             cout << "Genre Jazz: 1. Miles Davis" << endl;
             cout << "           2. Ella Fitzgerald" << endl;
