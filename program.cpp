@@ -126,7 +126,7 @@ void pilihanGenre(int pilihan) {
                 cout << "2. Koko" << endl;
                 cout << "3. Now's the Time" << endl;
                 cout << "4. Yardbird Suite" << endl;
-                cout << "5. Confirmation" << endl; "<<endl;
+                cout << "5. Confirmation" << endl;
             }
             break;
         case 4:
