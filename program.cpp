@@ -11,6 +11,8 @@ cout << "5. Kpop" << endl;
 }
 
 void pilihanGenre(int pilihan) {
+    int pil;
+    
     switch(pilihan) {
         case 1:
             cout << "Genre Pop: 1. Ariana Grande" << endl;
@@ -20,19 +22,33 @@ void pilihanGenre(int pilihan) {
             cout << "Pilih artist (1 - 4)" << endl;
             cin >> pil;
             if (pil == 1) {
-                cout << "Into You" << endl; 
-                cout << "Greedy" << endl;
-                cout << "The Boy Is Mine" << endl;
+                cout << "Lagu Dari Ariana Grande : " << endl;
+                cout << "1. Into You" << endl; 
+                cout << "2. Greedy" << endl;
+                cout << "3. The Boy Is Mine" << endl;
+                cout << "4. Fantasize" << endl;
+                cout << "5. Bloodline" << endl;
             } else if (pil == 2) {
-                cout << "Please please please" << endl;
-                cout << "Taste" endl;
+                cout << "Lagu Dari Sabrina Carpenter : " << endl;
+                cout << "1. Please please please" << endl;
+                cout << "2. Taste" << endl;
+                cout << "3. Espresso" << endl;
+                cout << "4. Bad Chem" << endl;
+                cout << "5. Vicious" << endl;
             } else if (pil == 3) {
-                cout << "24K Magic" << endl;
-                cout << "Just The Way You Are" << endl;
+                cout << "Lagu Dari Bruno Mars : " << endl;
+                cout << "1. 24K Magic" << endl;
+                cout << "2. Just The Way You Are" << endl;
+                cout << "3. Grenade" << endl;
+                cout << "4. It Will Rain" << endl;
+                cout << "5. Die With A Smile" << endl;
             } else {
-                cout << "Birds of A Feather" << endl;
-                cout << "Bad Guy" << endl;
-                cout << "When The Party's Over" << endl;
+                cout << "Lagu Dari Billie Eilish : " << endl;
+                cout << "1. Birds of A Feather" << endl;
+                cout << "2. Bad Guy" << endl;
+                cout << "3. When The Party's Over" << endl;
+                cout << "4. Guess" << endl;
+                cout << "5. All The Good Girls Go To Hell << endl;
             }
           break;
         case 2:
