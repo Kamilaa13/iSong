@@ -6,7 +6,7 @@ cout << "Daftar Genre Lagu : " << endl;
 cout << "1. Pop" << endl;
 cout << "2. Rock" << endl;
 cout << "3. Jazz" << endl;
-cout << "4. Klasik" << endl;
+cout << "4. RnB" << endl;
 cout << "5. Kpop" << endl;
 }
 
@@ -130,7 +130,49 @@ void pilihanGenre(int pilihan) {
             }
             break;
         case 4:
-            cout << "Genre Klasik: "<<endl;
+            cout << "Genre RnB: 1. H E R" << endl;
+            cout << "           2. The Weeknd" << endl;
+            cout << "           3. SZA" << endl;
+            cout << "           4. Summer Walker" << endl;
+            cout << "           5. Ari Lennox" << endl;
+            cout << "Pilih artist (1 - 5)" << endl;
+            cin >> pil;
+            if (pil == 1) {
+                cout << "Lagu Dari H E R : " << endl;
+                cout << "1. Focus" << endl; 
+                cout << "2. Best Part" << endl;
+                cout << "3. Could've Been" << endl;
+                cout << "4. Lost in Love" << endl;
+                cout << "5. Damage" << endl;
+            } else if (pil == 2) {
+                cout << "Lagu Dari The Weeknd : " << endl;
+                cout << "1. Starboy" << endl;
+                cout << "2. Save Your Tears" << endl;
+                cout << "3. Creepin" << endl;
+                cout << "4. Can't Feel My Face" << endl;
+                cout << "5. Blinding Lights" << endl;
+            } else if (pil == 3) {
+                cout << "Lagu Dari SZA : " << endl;
+                cout << "1. Good Days" << endl;
+                cout << "2. Kill Bill" << endl;
+                cout << "3. The Weekend" << endl;
+                cout << "4. Love Galore" << endl;
+                cout << "5. Drew Barrymore" << endl;
+            } else if (pil == 4) {
+                cout << "Lagu Dari Summer Walker : " << endl;
+                cout << "1. Girls Need Love" << endl;
+                cout << "2. Come Thru" << endl;
+                cout << "3. Playing Games" << endl;
+                cout << "4. No Love ft.SZA" << endl;
+                cout << "5. Let It Go" << endl;
+            }else {
+                cout << "Lagu Dari Ari Lennox : " << endl;
+                cout << "1. Shea Butter Baby" << endl;
+                cout << "2. BMO" << endl;
+                cout << "3. Up Late" << endl;
+                cout << "4. POF" << endl;
+                cout << "5. Pressure" << endl;
+            }
             break;
         case 5:
             cout << "Genre KPop: 1. NCY DREAM" << endl;
