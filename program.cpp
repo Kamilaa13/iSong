@@ -13,8 +13,28 @@ cout << "5. Kpop" << endl;
 void pilihanGenre(int pilihan) {
     switch(pilihan) {
         case 1:
-            cout << "Genre Pop: "<<endl;
-            break;
+            cout << "Genre Pop: 1. Ariana Grande" << endl;
+            cout << "           2. Sabrina Carpenter" << endl;
+            cout << "           3. Bruno Mars" << endl;
+            cout << "           4. Billie Eilish" << endl;
+            cout << "Pilih artist (1 - 4)" << endl;
+            cin >> pil;
+            if (pil == 1) {
+                cout << "Into You" << endl; 
+                cout << "Greedy" << endl;
+                cout << "The Boy Is Mine" << endl;
+            } else if (pil == 2) {
+                cout << "Please please please" << endl;
+                cout << "Taste" endl;
+            } else if (pil == 3) {
+                cout << "24K Magic" << endl;
+                cout << "Just The Way You Are" << endl;
+            } else {
+                cout << "Birds of A Feather" << endl;
+                cout << "Bad Guy" << endl;
+                cout << "When The Party's Over" << endl;
+            }
+          break;
         case 2:
             cout << "Genre Rock: "<<endl;
             break;
@@ -40,8 +60,8 @@ void pilihanGenre(int pilihan) {
         default:
             cout << "Pilihan tidak valid"<<endl;
             break;
+        }
     }
-}
 
 int main(){
     int pilihan;
